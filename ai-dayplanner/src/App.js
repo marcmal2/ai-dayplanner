@@ -1,7 +1,11 @@
-import './App.css';
+import Front from './components/front/front';
 
 function App() {
-  return <p>hello world</p>;
+  return (
+    <>
+      <Front />
+    </>
+  );
 }
 
 export default App;
